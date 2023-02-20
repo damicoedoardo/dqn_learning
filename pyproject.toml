@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dqn_learning"
+version = "0.1.0"
+description = ""
+authors = ["damicoedoardo <damicoedoardo95@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+gymnasium = {extras = ["classic_control"], version = "^0.27.1"}
+torch = "^1.13.1"
+matplotlib = "^3.7.0"
+
+[tool.poetry.dev-dependencies]
+ipykernel = "^6.21.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
